@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00CA44125BB1890000B72B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CA44025BB1890000B72B1 /* AppDelegate.swift */; };
+		A00CA44325BB1890000B72B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CA44225BB1890000B72B1 /* SceneDelegate.swift */; };
+		A00CA44525BB1890000B72B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CA44425BB1890000B72B1 /* ViewController.swift */; };
+		A00CA44825BB1890000B72B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00CA44625BB1890000B72B1 /* Main.storyboard */; };
+		A00CA44B25BB1890000B72B1 /* schoolIncidentHeatMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A00CA44925BB1890000B72B1 /* schoolIncidentHeatMap.xcdatamodeld */; };
+		A00CA44D25BB1893000B72B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00CA44C25BB1893000B72B1 /* Assets.xcassets */; };
+		A00CA45025BB1893000B72B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00CA44E25BB1893000B72B1 /* LaunchScreen.storyboard */; };
+		A00CA45B25BB1893000B72B1 /* schoolIncidentHeatMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CA45A25BB1893000B72B1 /* schoolIncidentHeatMapTests.swift */; };
+		A00CA46625BB1893000B72B1 /* schoolIncidentHeatMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CA46525BB1893000B72B1 /* schoolIncidentHeatMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00CA45725BB1893000B72B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00CA43525BB1890000B72B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00CA43C25BB1890000B72B1;
+			remoteInfo = schoolIncidentHeatMap;
+		};
+		A00CA46225BB1893000B72B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00CA43525BB1890000B72B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00CA43C25BB1890000B72B1;
+			remoteInfo = schoolIncidentHeatMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00CA43D25BB1890000B72B1 /* schoolIncidentHeatMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = schoolIncidentHeatMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00CA44025BB1890000B72B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A00CA44225BB1890000B72B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A00CA44425BB1890000B72B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A00CA44725BB1890000B72B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00CA44A25BB1890000B72B1 /* schoolIncidentHeatMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = schoolIncidentHeatMap.xcdatamodel; sourceTree = "<group>"; };
+		A00CA44C25BB1893000B72B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00CA44F25BB1893000B72B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00CA45125BB1893000B72B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00CA45625BB1893000B72B1 /* schoolIncidentHeatMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = schoolIncidentHeatMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00CA45A25BB1893000B72B1 /* schoolIncidentHeatMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schoolIncidentHeatMapTests.swift; sourceTree = "<group>"; };
+		A00CA45C25BB1893000B72B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00CA46125BB1893000B72B1 /* schoolIncidentHeatMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = schoolIncidentHeatMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00CA46525BB1893000B72B1 /* schoolIncidentHeatMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schoolIncidentHeatMapUITests.swift; sourceTree = "<group>"; };
+		A00CA46725BB1893000B72B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00CA43A25BB1890000B72B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00CA45325BB1893000B72B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00CA45E25BB1893000B72B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00CA43425BB1890000B72B1 = {
+			isa = PBXGroup;
+			children = (
+				A00CA43F25BB1890000B72B1 /* schoolIncidentHeatMap */,
+				A00CA45925BB1893000B72B1 /* schoolIncidentHeatMapTests */,
+				A00CA46425BB1893000B72B1 /* schoolIncidentHeatMapUITests */,
+				A00CA43E25BB1890000B72B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00CA43E25BB1890000B72B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00CA43D25BB1890000B72B1 /* schoolIncidentHeatMap.app */,
+				A00CA45625BB1893000B72B1 /* schoolIncidentHeatMapTests.xctest */,
+				A00CA46125BB1893000B72B1 /* schoolIncidentHeatMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00CA43F25BB1890000B72B1 /* schoolIncidentHeatMap */ = {
+			isa = PBXGroup;
+			children = (
+				A00CA44025BB1890000B72B1 /* AppDelegate.swift */,
+				A00CA44225BB1890000B72B1 /* SceneDelegate.swift */,
+				A00CA44425BB1890000B72B1 /* ViewController.swift */,
+				A00CA44625BB1890000B72B1 /* Main.storyboard */,
+				A00CA44C25BB1893000B72B1 /* Assets.xcassets */,
+				A00CA44E25BB1893000B72B1 /* LaunchScreen.storyboard */,
+				A00CA45125BB1893000B72B1 /* Info.plist */,
+				A00CA44925BB1890000B72B1 /* schoolIncidentHeatMap.xcdatamodeld */,
+			);
+			path = schoolIncidentHeatMap;
+			sourceTree = "<group>";
+		};
+		A00CA45925BB1893000B72B1 /* schoolIncidentHeatMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00CA45A25BB1893000B72B1 /* schoolIncidentHeatMapTests.swift */,
+				A00CA45C25BB1893000B72B1 /* Info.plist */,
+			);
+			path = schoolIncidentHeatMapTests;
+			sourceTree = "<group>";
+		};
+		A00CA46425BB1893000B72B1 /* schoolIncidentHeatMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A00CA46525BB1893000B72B1 /* schoolIncidentHeatMapUITests.swift */,
+				A00CA46725BB1893000B72B1 /* Info.plist */,
+			);
+			path = schoolIncidentHeatMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00CA43C25BB1890000B72B1 /* schoolIncidentHeatMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00CA46A25BB1893000B72B1 /* Build configuration list for PBXNativeTarget "schoolIncidentHeatMap" */;
+			buildPhases = (
+				A00CA43925BB1890000B72B1 /* Sources */,
+				A00CA43A25BB1890000B72B1 /* Frameworks */,
+				A00CA43B25BB1890000B72B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = schoolIncidentHeatMap;
+			productName = schoolIncidentHeatMap;
+			productReference = A00CA43D25BB1890000B72B1 /* schoolIncidentHeatMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00CA45525BB1893000B72B1 /* schoolIncidentHeatMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00CA46D25BB1893000B72B1 /* Build configuration list for PBXNativeTarget "schoolIncidentHeatMapTests" */;
+			buildPhases = (
+				A00CA45225BB1893000B72B1 /* Sources */,
+				A00CA45325BB1893000B72B1 /* Frameworks */,
+				A00CA45425BB1893000B72B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00CA45825BB1893000B72B1 /* PBXTargetDependency */,
+			);
+			name = schoolIncidentHeatMapTests;
+			productName = schoolIncidentHeatMapTests;
+			productReference = A00CA45625BB1893000B72B1 /* schoolIncidentHeatMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00CA46025BB1893000B72B1 /* schoolIncidentHeatMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00CA47025BB1893000B72B1 /* Build configuration list for PBXNativeTarget "schoolIncidentHeatMapUITests" */;
+			buildPhases = (
+				A00CA45D25BB1893000B72B1 /* Sources */,
+				A00CA45E25BB1893000B72B1 /* Frameworks */,
+				A00CA45F25BB1893000B72B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00CA46325BB1893000B72B1 /* PBXTargetDependency */,
+			);
+			name = schoolIncidentHeatMapUITests;
+			productName = schoolIncidentHeatMapUITests;
+			productReference = A00CA46125BB1893000B72B1 /* schoolIncidentHeatMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00CA43525BB1890000B72B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A00CA43C25BB1890000B72B1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A00CA45525BB1893000B72B1 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A00CA43C25BB1890000B72B1;
+					};
+					A00CA46025BB1893000B72B1 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A00CA43C25BB1890000B72B1;
+					};
+				};
+			};
+			buildConfigurationList = A00CA43825BB1890000B72B1 /* Build configuration list for PBXProject "schoolIncidentHeatMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00CA43425BB1890000B72B1;
+			productRefGroup = A00CA43E25BB1890000B72B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00CA43C25BB1890000B72B1 /* schoolIncidentHeatMap */,
+				A00CA45525BB1893000B72B1 /* schoolIncidentHeatMapTests */,
+				A00CA46025BB1893000B72B1 /* schoolIncidentHeatMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00CA43B25BB1890000B72B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00CA45025BB1893000B72B1 /* LaunchScreen.storyboard in Resources */,
+				A00CA44D25BB1893000B72B1 /* Assets.xcassets in Resources */,
+				A00CA44825BB1890000B72B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00CA45425BB1893000B72B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00CA45F25BB1893000B72B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00CA43925BB1890000B72B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00CA44B25BB1890000B72B1 /* schoolIncidentHeatMap.xcdatamodeld in Sources */,
+				A00CA44525BB1890000B72B1 /* ViewController.swift in Sources */,
+				A00CA44125BB1890000B72B1 /* AppDelegate.swift in Sources */,
+				A00CA44325BB1890000B72B1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00CA45225BB1893000B72B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00CA45B25BB1893000B72B1 /* schoolIncidentHeatMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00CA45D25BB1893000B72B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00CA46625BB1893000B72B1 /* schoolIncidentHeatMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00CA45825BB1893000B72B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00CA43C25BB1890000B72B1 /* schoolIncidentHeatMap */;
+			targetProxy = A00CA45725BB1893000B72B1 /* PBXContainerItemProxy */;
+		};
+		A00CA46325BB1893000B72B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00CA43C25BB1890000B72B1 /* schoolIncidentHeatMap */;
+			targetProxy = A00CA46225BB1893000B72B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A00CA44625BB1890000B72B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00CA44725BB1890000B72B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00CA44E25BB1893000B72B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00CA44F25BB1893000B72B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A00CA46825BB1893000B72B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00CA46925BB1893000B72B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00CA46B25BB1893000B72B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUGHZ7CXW7;
+				INFOPLIST_FILE = schoolIncidentHeatMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dave-Borucki.schoolIncidentHeatMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00CA46C25BB1893000B72B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUGHZ7CXW7;
+				INFOPLIST_FILE = schoolIncidentHeatMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dave-Borucki.schoolIncidentHeatMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00CA46E25BB1893000B72B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUGHZ7CXW7;
+				INFOPLIST_FILE = schoolIncidentHeatMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dave-Borucki.schoolIncidentHeatMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/schoolIncidentHeatMap.app/schoolIncidentHeatMap";
+			};
+			name = Debug;
+		};
+		A00CA46F25BB1893000B72B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUGHZ7CXW7;
+				INFOPLIST_FILE = schoolIncidentHeatMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dave-Borucki.schoolIncidentHeatMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/schoolIncidentHeatMap.app/schoolIncidentHeatMap";
+			};
+			name = Release;
+		};
+		A00CA47125BB1893000B72B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUGHZ7CXW7;
+				INFOPLIST_FILE = schoolIncidentHeatMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dave-Borucki.schoolIncidentHeatMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = schoolIncidentHeatMap;
+			};
+			name = Debug;
+		};
+		A00CA47225BB1893000B72B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUGHZ7CXW7;
+				INFOPLIST_FILE = schoolIncidentHeatMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dave-Borucki.schoolIncidentHeatMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = schoolIncidentHeatMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00CA43825BB1890000B72B1 /* Build configuration list for PBXProject "schoolIncidentHeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00CA46825BB1893000B72B1 /* Debug */,
+				A00CA46925BB1893000B72B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00CA46A25BB1893000B72B1 /* Build configuration list for PBXNativeTarget "schoolIncidentHeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00CA46B25BB1893000B72B1 /* Debug */,
+				A00CA46C25BB1893000B72B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00CA46D25BB1893000B72B1 /* Build configuration list for PBXNativeTarget "schoolIncidentHeatMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00CA46E25BB1893000B72B1 /* Debug */,
+				A00CA46F25BB1893000B72B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00CA47025BB1893000B72B1 /* Build configuration list for PBXNativeTarget "schoolIncidentHeatMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00CA47125BB1893000B72B1 /* Debug */,
+				A00CA47225BB1893000B72B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A00CA44925BB1890000B72B1 /* schoolIncidentHeatMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A00CA44A25BB1890000B72B1 /* schoolIncidentHeatMap.xcdatamodel */,
+			);
+			currentVersion = A00CA44A25BB1890000B72B1 /* schoolIncidentHeatMap.xcdatamodel */;
+			path = schoolIncidentHeatMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A00CA43525BB1890000B72B1 /* Project object */;
+}
