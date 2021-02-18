@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A005D7D625DEB20200D084B4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A005D7D525DEB20200D084B4 /* SecondViewController.swift */; };
 		A00CA44125BB1890000B72B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CA44025BB1890000B72B1 /* AppDelegate.swift */; };
 		A00CA44325BB1890000B72B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CA44225BB1890000B72B1 /* SceneDelegate.swift */; };
 		A00CA44525BB1890000B72B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CA44425BB1890000B72B1 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A005D7D525DEB20200D084B4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A00CA43D25BB1890000B72B1 /* schoolIncidentHeatMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = schoolIncidentHeatMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00CA44025BB1890000B72B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A00CA44225BB1890000B72B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				A00CA44225BB1890000B72B1 /* SceneDelegate.swift */,
 				A00CA44425BB1890000B72B1 /* ViewController.swift */,
 				A00CA44625BB1890000B72B1 /* Main.storyboard */,
+				A005D7D525DEB20200D084B4 /* SecondViewController.swift */,
 				A00CA44C25BB1893000B72B1 /* Assets.xcassets */,
 				A00CA44E25BB1893000B72B1 /* LaunchScreen.storyboard */,
 				A00CA45125BB1893000B72B1 /* Info.plist */,
@@ -264,6 +267,7 @@
 				A00CA44B25BB1890000B72B1 /* schoolIncidentHeatMap.xcdatamodeld in Sources */,
 				A00CA44525BB1890000B72B1 /* ViewController.swift in Sources */,
 				A00CA44125BB1890000B72B1 /* AppDelegate.swift in Sources */,
+				A005D7D625DEB20200D084B4 /* SecondViewController.swift in Sources */,
 				A00CA44325BB1890000B72B1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

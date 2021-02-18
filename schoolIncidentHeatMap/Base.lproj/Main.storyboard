@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3fl-Wy-XZC">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,148 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="schoolIncidentHeatMap" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap anywhere on the map to find incidents near selected location" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1A-N5-xNu">
+                                <rect key="frame" x="55" y="44" width="305" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.81960784313725488" green="0.85882352941176465" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KV9-bY-mTY">
+                                <rect key="frame" x="132" y="812" width="150" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18431372549019609" green="0.25098039215686274" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Go to Second Floor">
+                                    <color key="titleColor" red="0.81960784310000001" green="0.85882352939999995" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4uQ-zB-amk" kind="show" id="3UH-gD-0BG"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="floorOne" translatesAutoresizingMaskIntoConstraints="NO" id="5fM-Dv-Ks0">
+                                <rect key="frame" x="20" y="118" width="374" height="686"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cfv-Ay-fIN" userLabel="mathHallway">
+                                <rect key="frame" x="71" y="633" width="13" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </button>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AoE-gv-6Ec" userLabel="scienceHallway">
+                                <rect key="frame" x="184" y="521" width="11" height="266"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </button>
+                            <button opaque="NO" alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sle-Bg-66Y" userLabel="stemHallway">
+                                <rect key="frame" x="81" y="225" width="150" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </button>
+                            <button opaque="NO" alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ia4-vi-Hos" userLabel="specialEdHallway">
+                                <rect key="frame" x="71" y="198" width="10" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </button>
+                            <button opaque="NO" alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLO-Nc-kTn" userLabel="busHallway">
+                                <rect key="frame" x="231" y="163" width="12" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </button>
+                            <button opaque="NO" alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmf-l1-irK" userLabel="gymHallway">
+                                <rect key="frame" x="257" y="415" width="88" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </button>
+                            <button opaque="NO" alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2LW-2R-NEi" userLabel="adminHallway">
+                                <rect key="frame" x="68" y="352" width="13" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </button>
+                            <button opaque="NO" alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdZ-1C-CR2" userLabel="fourCorners">
+                                <rect key="frame" x="217" y="390" width="40" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </button>
+                            <button opaque="NO" alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ltb-NX-Klh" userLabel="artHallway">
+                                <rect key="frame" x="81" y="415" width="136" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="buttonsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hAh-JI-KKf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.55000001192092896" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaI-lW-EXi" userLabel="teacherHallway">
+                                <rect key="frame" x="81" y="508" width="157" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </button>
+                            <button opaque="NO" alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ua-T0-GzT" userLabel="trophyHallway">
+                                <rect key="frame" x="238" y="428" width="17" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.19607843137254902" green="0.21176470588235294" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Ltg-KX-4rD"/>
+                    <connections>
+                        <outletCollection property="buttons" destination="BLO-Nc-kTn" collectionClass="NSMutableArray" id="NwK-54-NaQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="79.6875"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="eRH-Zq-V1g">
+            <objects>
+                <viewController id="4uQ-zB-amk" customClass="SecondViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fcx-9j-K9p">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap anywhere on the map to find incidents near selected location" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rM-ih-BqP">
+                                <rect key="frame" x="55" y="55" width="305" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.81960784310000001" green="0.85882352939999995" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JQk-ok-fhM"/>
+                        <color key="backgroundColor" red="0.1960784314" green="0.21176470589999999" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZEx-Rl-uSd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yps-VN-vET" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1728.985507246377" y="79.6875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9JQ-nc-SJ9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="3fl-Wy-XZC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WDo-23-p8K">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KqO-RB-5mi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1PZ-Uo-MmP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="79.6875"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="floorOne" width="718" height="1142"/>
+    </resources>
 </document>
