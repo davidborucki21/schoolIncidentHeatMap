@@ -18,6 +18,7 @@
 		A00CA45B25BB1893000B72B1 /* schoolIncidentHeatMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CA45A25BB1893000B72B1 /* schoolIncidentHeatMapTests.swift */; };
 		A00CA46625BB1893000B72B1 /* schoolIncidentHeatMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CA46525BB1893000B72B1 /* schoolIncidentHeatMapUITests.swift */; };
 		A044C55B25E3F38700EADDB4 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044C55A25E3F38700EADDB4 /* ViewControllerTwo.swift */; };
+		A044C56525E3F92D00EADDB4 /* hallway.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044C56425E3F92D00EADDB4 /* hallway.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A00CA46525BB1893000B72B1 /* schoolIncidentHeatMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schoolIncidentHeatMapUITests.swift; sourceTree = "<group>"; };
 		A00CA46725BB1893000B72B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A044C55A25E3F38700EADDB4 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		A044C56425E3F92D00EADDB4 /* hallway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hallway.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				A00CA44225BB1890000B72B1 /* SceneDelegate.swift */,
 				A00CA44425BB1890000B72B1 /* ViewController.swift */,
 				A00CA44625BB1890000B72B1 /* Main.storyboard */,
+				A044C56425E3F92D00EADDB4 /* hallway.swift */,
 				A044C55A25E3F38700EADDB4 /* ViewControllerTwo.swift */,
 				A005D7D525DEB20200D084B4 /* SecondViewController.swift */,
 				A00CA44C25BB1893000B72B1 /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 			files = (
 				A00CA44B25BB1890000B72B1 /* schoolIncidentHeatMap.xcdatamodeld in Sources */,
 				A00CA44525BB1890000B72B1 /* ViewController.swift in Sources */,
+				A044C56525E3F92D00EADDB4 /* hallway.swift in Sources */,
 				A00CA44125BB1890000B72B1 /* AppDelegate.swift in Sources */,
 				A005D7D625DEB20200D084B4 /* SecondViewController.swift in Sources */,
 				A00CA44325BB1890000B72B1 /* SceneDelegate.swift in Sources */,
