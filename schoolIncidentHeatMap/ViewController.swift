@@ -18,5 +18,12 @@ class ViewController: UIViewController {
     @IBAction func buttonsAction(_ sender: UIButton) {
         
     }
+    
+    @IBAction func toSecondFloorAction(_ sender: UIButton) {
+        performSegue(withIdentifier: "toScreenTwo", sender: self)
+        
+    }
+    
+    
 }
 

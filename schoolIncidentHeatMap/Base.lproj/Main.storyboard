@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="schoolIncidentHeatMap" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap anywhere on the map to find incidents near selected location" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1A-N5-xNu">
@@ -30,7 +30,7 @@
                                     <color key="titleColor" red="0.81960784310000001" green="0.85882352939999995" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4uQ-zB-amk" kind="show" id="3UH-gD-0BG"/>
+                                    <action selector="toSecondFloorAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y3l-E8-UqN"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="floorOne" translatesAutoresizingMaskIntoConstraints="NO" id="5fM-Dv-Ks0">
@@ -102,18 +102,19 @@
                     <navigationItem key="navigationItem" id="Ltg-KX-4rD"/>
                     <connections>
                         <outletCollection property="buttons" destination="BLO-Nc-kTn" collectionClass="NSMutableArray" id="NwK-54-NaQ"/>
+                        <segue destination="4uQ-zB-amk" kind="show" identifier="toScreenTwo" id="eVu-Y7-oqp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="79.6875"/>
         </scene>
-        <!--Second View Controller-->
+        <!--View Controller Two-->
         <scene sceneID="eRH-Zq-V1g">
             <objects>
-                <viewController id="4uQ-zB-amk" customClass="SecondViewController" sceneMemberID="viewController">
+                <viewController id="4uQ-zB-amk" customClass="ViewControllerTwo" customModule="schoolIncidentHeatMap" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fcx-9j-K9p">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap anywhere on the map to find incidents near selected location" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rM-ih-BqP">
@@ -130,6 +131,9 @@
                                 <state key="normal" title="Go to First Floor">
                                     <color key="titleColor" red="0.81960784310000001" green="0.85882352939999995" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToFirstButton:" destination="4uQ-zB-amk" eventType="touchUpInside" id="ilM-me-PY2"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="floorTwo" translatesAutoresizingMaskIntoConstraints="NO" id="kFj-Wf-76u">
                                 <rect key="frame" x="20" y="118" width="374" height="686"/>
@@ -140,6 +144,9 @@
                         <color key="backgroundColor" red="0.1960784314" green="0.21176470589999999" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZEx-Rl-uSd"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="toScreenOne" id="Nsj-VE-7B5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yps-VN-vET" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -163,7 +170,11 @@
             <point key="canvasLocation" x="137.68115942028987" y="79.6875"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Nsj-VE-7B5"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="floorOne" width="718" height="1142"/>
+        <image name="floorTwo" width="402" height="1098"/>
     </resources>
 </document>
