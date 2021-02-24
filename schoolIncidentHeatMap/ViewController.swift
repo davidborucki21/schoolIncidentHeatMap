@@ -8,14 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var hallwaygetter = Hallway()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     @IBAction func buttonsAction(_ sender: UIButton) {
-        print("Button: \(sender.tag)")
-        
+        //print("Button: \(sender.tag)")
+        print(hallwaygetter.getHallway(sender))
     }
     
     @IBAction func toSecondFloorAction(_ sender: UIButton) {
